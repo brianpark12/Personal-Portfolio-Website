@@ -15,15 +15,14 @@
     <header class="page-header">
         <div class="container header-inner">
             <div class="information">
-                <h1 class="name">Brian Park</h1>
+                <h1 class="name"><strong>Brian Park</strong></h1>
                 <p class="tag">Walton High school - 10th grade</p>
             </div>
 
             <nav class="nav">
                 <button id="nav-toggle" aria-label="Open navigation">&#9776</button>
                     <ul id="nav-list" class="nav-list">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
+                        <li><a href="#home">BRIAN</a></li>
                         <li><a href="#academics">Academics</a></li>
                         <li><a href="#projects">Projects</a></li>
                         <li><a href="#achievements&activities">Achievements & Activities</a></li>
@@ -47,7 +46,7 @@
                                 viewBox="0 0 24 24" 
                                 fill="currentColor" 
                                 aria-hidden="true"
->
+>                               
                                 <path d="M20 4H4C2.9 4 2 4.9 2 6v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2Zm-1.4 3.25-6.3 4.72a.5.5 0 0 1-.6 0L5.4 7.25A1 1 0 0 1 6 6h12c.1 0 .3 0 .4.1.5.2.7.9.2 1.15Z"/>
                             </svg>
                         </a></li>
@@ -59,12 +58,91 @@
 
     <main>
         <!--Hero-->
-        <section id="hero" class="hero container">
-            <div class="hero-left">
-                <h2 class="headline">
+        <section id="hero" class="hero-container">
+            <div class="hero-background">
+                <div class="hero-description">
+                    <h2 class="headline">Welcome! I'm <name class="name"><strong>Brian</strong></name>.</h2>
+                    <p class="lead">I am 10th grade student at Walton High School interested in mathematics, programming, and engineering.</p>
+                    <p class="lead">I enjoy creating projects, solving advanced math problems, and learning about computer systems.</p>
+                    <a class="btn primary" href="#projects">See Projects</a>
+                    <a class="btn ghost" href="#contact">Reach Out to Me!</a>
+                </div>
+              <!--i gotta put IMAGE-->  
+                <div class="hero-picture card">
+                    <img src="assets/image" alt="image" class="profile-photo" onerror="this.style.display='none'">
+                    <div class="info">
+                        <p><strong>Intended Major</strong><br>Computer Engineering</p>
+                        <p><strong>School</strong><br><a class="link" href="www.cobbk12.org/walton" target="_blank" rel="opener"></a></p>
+                        <p><strong>Favorite Subjects</strong><br>Math|Compute Science</p>
+                    </div>
+                </div>    
+            </div>    
+        </section>
 
+        <!--Academics-->
+        <section id="academics" class="container section">
+            <h3 class="section-title"><strong>Academics</strong></h3>
+            <div class="academics-grid">
+                <div class="tab">   
+                    <h4><strong>Coursework</strong></h4>
+                    <ul>
+                        <li>AP Precalculus BC</li>
+                        <li>Advanced Honors Geomtery/Algebra 2</li>
+                        <li>AP Computer Science Principles</li>
+                        <li>Honors Chemistry</li>
+                        <li>Honors Biology</li>
+                        <li>AP Government/Economics</li>
+                        <li>AP Human Geography</li>
+                        <li>Honors Literature and Composition I/II</li>
+                        <li>Spanish I/II</li>
+                    </ul>  
+                </div>    
+            
+                <div class="tab">
+                    <h4><strong>GPA & Scores</strong></h4>
+                    <ul>
+                        <li>Current GPA:</li>
+                        <li>SAT:</li>
+                        <li>PSAT: 1440</li>
+                    </ul>
+                    <!--<a class="link" href="transcript link" target ="_blank" rel="opener">View Transcript</a>   (Insert transcript link)-->
+                </div>
+            </div>    
         </section>
         
+        <!--Projects-->
+        <section id="projects" class="container section">
+            <h3 class="section-title"><strong>Projects</strong></h3>
+            <div class="projects-grid">
+                <!--project 1-->
+                <div class="tab">
+                    <h4 class="project-title"><strong>Coming Soon</strong></h4>
+                    <img src="assets/comingsoon" alt="Coming Soon Image" class="coming-soon-image" onerror="this.style.display='none'">
+                    <p>Projects will be added soon! Please check back later.</p>
+                    <p class="tools">Tools:</p>
+                    <a class="link" href="project link" target="_blank" rel="opener">View Project</a>  <!--insert link-->
+                </div>
+
+                <!--project 2-->
+                <div class="tab">
+                    <h4 class="project-title"><strong>Coming Soon</strong></h4>
+                    <img src="assets/comingsoon" alt="Coming Soon Image" class="coming-soon-image" onerror="this.style.display='none'">
+                    <p>Projects will be added soon! Please check back later.</p>
+                    <p class="tools">Tools:</p>
+                    <a class="link" href="project link" target="_blank" rel="opener">View Project</a>  <!--insert link-->
+                </div>
+                
+                <!--project 3-->
+                <div class="tab">
+                    <h4 class="project-title"><strong>Coming Soon</strong></h4>
+                    <img src="assets/comingsoon" alt="Coming Soon Image" class="coming-soon-image" onerror="this.style.display='none'">
+                    <p>Projects will be added soon! Please check back later.</p>
+                    <p class="tools">Tools:</p>
+                    <a class="link" href="project link" target="_blank" rel="opener">View Project</a>  <!--insert link-->
+                </div>
+            </div>        
+        </section>  
+
         <!--Contacts-->
         <section id="contact" class="container section">
             <h3 class="section-title">Contact</h3>
