@@ -13,12 +13,6 @@
 <body>
     <!--Heading-->
     <header class="page-header">
-        <div class="container header-inner">
-            <div class="information">
-                <h1 class="name"><strong>Brian Park</strong></h1>
-                <p class="tag">Walton High school - 10th grade</p>
-            </div>
-
             <nav class="nav">
                 <button id="nav-toggle" aria-label="Open navigation">&#9776</button>
                     <ul id="nav-list" class="nav-list">
@@ -28,7 +22,7 @@
                         <li><a href="#achievements&activities">Achievements & Activities</a></li>
                         <li><a href="#skills">Skills</a></li>
                         <li><a href="#contact">Contact</a></li>
-                        <li><a class="link" href="https://github.com/brianpark12" target="_blank" rel="opener">
+                        <li><a class="link" href="https://github.com/brianpark12" target="_blank" rel="noopener"></a>
                             <svg 
                             width="24" 
                             height="24" 
@@ -39,7 +33,7 @@
                             <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.1 3.3 9.4 7.8 10.9.57.1.78-.25.78-.55v-2c-3.18.7-3.85-1.37-3.85-1.37-.52-1.3-1.27-1.65-1.27-1.65-1.04-.72.08-.7.08-.7 1.15.08 1.76 1.2 1.76 1.2 1.02 1.76 2.68 1.25 3.33.95.1-.74.4-1.25.72-1.54-2.54-.29-5.22-1.27-5.22-5.65 0-1.25.44-2.27 1.17-3.07-.12-.29-.52-1.48.11-3.08 0 0 .97-.31 3.18 1.17a10.7 10.7 0 0 1 5.8 0c2.2-1.48 3.18-1.17 3.18-1.17.63 1.6.23 2.79.11 3.08.73.8 1.17 1.82 1.17 3.07 0 4.4-2.7 5.36-5.25 5.64.41.35.78 1.04.78 2.1v3.12c0 .3.2.67.8.55A10.98 10.98 0 0 0 23.5 12c0-6.35-5.15-11.5-11.5-11.5Z" />
                             </svg>
                         </a></li>
-                        <li><a class="link" href="mailto:brianytspark@gmail.com" target="_blank" rel="opener">
+                        <li><a class="link" href="mailto:brianytspark@gmail.com" target="_blank" rel="noopener">
                             <svg 
                                 width="24" 
                                 height="24" 
@@ -53,7 +47,6 @@
                     </ul>
                 <button id="background-toggle" class="background-toggle" aria-label="Toggle dark mode">&#127762</button>
             </nav>
-        </div>
     </header>
 
     <main>
@@ -72,8 +65,8 @@
                     <img src="assets/image" alt="image" class="profile-photo" onerror="this.style.display='none'">
                     <div class="info">
                         <p><strong>Intended Major</strong><br>Computer Engineering</p>
-                        <p><strong>School</strong><br><a class="link" href="www.cobbk12.org/walton" target="_blank" rel="opener"></a></p>
-                        <p><strong>Favorite Subjects</strong><br>Math|Compute Science</p>
+                        <p><strong>School</strong><br><a class="link" href="www.cobbk12.org/walton" target="_blank" rel="noopener"></a></p>
+                        <p><strong>Favorite Subjects</strong><br>Math|Computer Science</p>
                     </div>
                 </div>    
             </div>    
@@ -105,7 +98,7 @@
                         <li>SAT:</li>
                         <li>PSAT: 1440</li>
                     </ul>
-                    <!--<a class="link" href="transcript link" target ="_blank" rel="opener">View Transcript</a>   (Insert transcript link)-->
+                    <!--<a class="link" href="transcript link" target ="_blank" rel="noopener">View Transcript</a>   (Insert transcript link)-->
                 </div>
             </div>    
         </section>
@@ -115,43 +108,92 @@
             <h3 class="section-title"><strong>Projects</strong></h3>
             <div class="projects-grid">
                 <!--project 1-->
-                <div class="tab">
+                <article class="tab">
                     <h4 class="project-title"><strong>Coming Soon</strong></h4>
                     <img src="assets/comingsoon" alt="Coming Soon Image" class="coming-soon-image" onerror="this.style.display='none'">
                     <p>Projects will be added soon! Please check back later.</p>
                     <p class="tools">Tools:</p>
-                    <a class="link" href="project link" target="_blank" rel="opener">View Project</a>  <!--insert link-->
-                </div>
+                    <a class="link" href="project link" target="_blank" rel="noopener">View Project</a>  <!--insert link-->
+                </article>
 
                 <!--project 2-->
-                <div class="tab">
+                <article class="tab">
                     <h4 class="project-title"><strong>Coming Soon</strong></h4>
                     <img src="assets/comingsoon" alt="Coming Soon Image" class="coming-soon-image" onerror="this.style.display='none'">
                     <p>Projects will be added soon! Please check back later.</p>
                     <p class="tools">Tools:</p>
-                    <a class="link" href="project link" target="_blank" rel="opener">View Project</a>  <!--insert link-->
-                </div>
+                    <a class="link" href="project link" target="_blank" rel="noopener">View Project</a>  <!--insert link-->
+                </article>
                 
                 <!--project 3-->
-                <div class="tab">
+                <article class="tab">
                     <h4 class="project-title"><strong>Coming Soon</strong></h4>
                     <img src="assets/comingsoon" alt="Coming Soon Image" class="coming-soon-image" onerror="this.style.display='none'">
                     <p>Projects will be added soon! Please check back later.</p>
                     <p class="tools">Tools:</p>
-                    <a class="link" href="project link" target="_blank" rel="opener">View Project</a>  <!--insert link-->
-                </div>
+                    <a class="link" href="project link" target="_blank" rel="noopener">View Project</a>  <!--insert link-->
+                </article>
             </div>        
-        </section>  
+        </section>
+
+        <!--Achievements & Activities-->
+        <section id="achievements&activities" class="container section">
+            <h3 class="section-title"><strong>Achievements</strong> and <strong>Activities</strong></h3>
+            <div class="achievements-grid">
+                <!--Achievements-->
+                <div class="tab">
+                    <h4><strong>Achievements</strong></h4>
+                    <ul>
+                        <li>(achievement 1)</li>
+                        <li>(achievement 2)</li>
+                        <li>(achievement 3)</li>
+                        <li>(achievement 4)</li>
+                        <li>(achievement 5)</li>
+                    </ul>
+                </div>
+                
+                <!--Activities-->
+                <div class="tab">
+                    <h4><strong>Activities</strong></h4>
+                    <ul>
+                        <li>(activities 1)</li>
+                        <li>(activities 2)</li>
+                        <li>(activities 3)</li>
+                        <li>(activities 4)</li>
+                        <li>(activities 5)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!--Skills-->
+        <section id="skills" class="container section">
+            <h3 class="section-title"><strong>Skills</strong></h3>
+            <!--skil #1-->
+            <div class="skills-grid">
+                <h4 class="skills-title">Programming</h4>
+                <ul>
+                    <li>HTML/CSS</li>
+                    <li>Java</li>
+                    <li>Javascript</li>
+                </ul>
+            </div>
+
+            <!--skil #2-->
+            <div class="skills-grid">
+
+            </div>
+        </section>
 
         <!--Contacts-->
         <section id="contact" class="container section">
-            <h3 class="section-title">Contact</h3>
+            <h3 class="section-title"><strong>Contact</strong></h3>
             <p>Thank you for visiting my portfolio! I have posted all my projects in Github in the link below.</p>
             <p>Please feel free to contact me through my personal email if you have any questions!</p>
             <ul class="contact-list">
-                <li>Personal Email: <a class="link" href="mailto:brianytspark@gmail.com" target="_blank" rel="opener"> brianytspark@gmail.com</a></li>
-                <li>School Email: <a class="link" href="mailto:Brian.Park@students.cobbk12.org" target="_blank" rel="opener"> Brian.Park@students.cobbk12.org</a></li>
-                <li>Github: <a class="link" href="https://github.com/brianpark12" target="_blank" rel="opener"> brianpark12</a></li>
+                <li>Personal Email: <a class="link" href="mailto:brianytspark@gmail.com" target="_blank" rel="noopener"> brianytspark@gmail.com</a></li>
+                <li>School Email: <a class="link" href="mailto:Brian.Park@students.cobbk12.org" target="_blank" rel="noopener"> Brian.Park@students.cobbk12.org</a></li>
+                <li>Github: <a class="link" href="https://github.com/brianpark12" target="_blank" rel="noopener"> brianpark12</a></li>
             </ul>
         </section>
     </main>
